@@ -1,3 +1,4 @@
+# FAQ
 ## Who Am I?
 Hi github! I am Itamar Mesa, a System Admin that loves IT. I am located at Seville, Spain (at least for now).
 

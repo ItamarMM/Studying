@@ -1,11 +1,16 @@
 # Ansible Basics
 These study notes were obtained based on the information obtained from:
-- watching the [ANSIBLE BASICS: AUTOMATION TECHNICAL OVERVIEW (DO007)](https://rhtapps.redhat.com/promo/course/do007), understanding it and typing out a summed up version of it.
-- researching any doubt in the [Official Ansible Documentation](https://docs.ansible.com). Images were extracted from the official domentation too.
+- Watching the [ANSIBLE BASICS: AUTOMATION TECHNICAL OVERVIEW (DO007)](https://rhtapps.redhat.com/promo/course/do007) course, understanding it and typing out a summed up version of it.
+- Researching any doubt in the [Official Ansible Documentation Webpage](https://docs.ansible.com). 
+
+Images were extracted from the [Official Ansible Webpage]((https://ansible.com))/[Official Ansible Documentation Webpage](https://docs.ansible.com) too.
 ## Products
 ###  RedHat Ansible Automation Platform (paid)
 Paid platform that contains several products:
 - **Ansible Automation Controller**:
+
+    ![Ansible Automation Controller interface](https://www.ansible.com/hubfs/controller_dashboard_750x413.jpg)
+    
     Evolution of Ansible Automation Tower. **Has an open source free upstream version called AWX**
     - Characteristics of Ansible Automation Controller:
         1. Is a UI and RESTful API tool.
@@ -40,7 +45,9 @@ Paid platform that contains several products:
             - User type: (User, admin...)
             - Access to specific credentials can be given to particular users.
 
-- **Automation Mesh**
+- **Automation Mesh**:
+
+    Enables better scalability management via execution nodes replacing the need for SSH jump hosts. Learn more [here](https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2.1-automation-mesh).
 
 - **Automation Execution Environments**: 
     
@@ -55,7 +62,7 @@ Paid platform that contains several products:
     Free CLI tool to navegate over the executions in a much more visual and practical way.
 - **AWX**: 
     
-    Used to be an open source ansible tower upstream, now it is an automation controller upstream.
+    Used to be an open source ansible tower upstream, now, it is an Ansible Automation Controller(AAC) upstream. For this reason, it is very similar to AAC.
 - **Ansible repositories**:
 
     **`ansible-galaxy`**: Command that works for both, ansible galaxy main repo and private automation hub.
