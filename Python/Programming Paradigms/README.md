@@ -48,7 +48,7 @@ Reusing the code would be the main characteristic.
 # Opinion
 After watching the video and reading some people's opinion regarding programming paradigms (mainly OOP vs functional programming)
 - Modularity is key for organization, does not matter the programming paradigm used. 
-- Having 20 layers of subclasses and creating a 30 functions that could be one(being a "x" paradigm defensor) are not actually that good for organization, but actually could slow developing actual functionalities.
+- Having 20 layers of subclasses and creating 30 functions that could be a single one(being a "x" paradigm defensor) are not actually that good for organization, but actually could slow developing actual functionalities.
 - Whether you take one paradigm or another, separating your code in clear ways, and supporting code is clearly hard, and no paradigm will make the code magically organized and understandable. As bigger the project, harder the maintenance/organization.
 
 I really liked the summarization of Brian Stewart in Brian's video: **""Bolting on" without understanding the design of a program is a fast way to create spaghetti, not matter functional or OO."**
